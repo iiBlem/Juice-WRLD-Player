@@ -1,0 +1,45 @@
+.track-list { padding: 20px 24px 180px; }
+.track-toolbar { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; padding: 12px 16px; border-radius: 12px; color: var(--text-secondary); }
+.sort-control { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+.sort-control select { color: var(--text-primary); background: var(--bg-elevated); border: 1px solid var(--glass-border-strong); padding: 8px; border-radius: 5px; font: inherit; }
+.view-toggle { display: flex; gap: 4px; }
+.view-toggle button, .track-icon-button { background: none; border: 0; color: var(--text-secondary); padding: 7px; cursor: pointer; border-radius: 4px; }
+.view-toggle button[aria-pressed=true], .heart.liked { color: var(--accent); }
+.view-toggle svg, .track-icon-button svg { display: block; width: 20px; height: 20px; }
+.view-toggle svg { fill: currentColor; }
+.track-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
+.track-card { min-width: 0; padding: 8px; border-radius: 6px; cursor: pointer; }
+.track-card:hover, .track-card:focus-within { background: var(--glass-bg); }
+.track-artwork { position: relative; aspect-ratio: 1; background: var(--glass-bg); border-radius: 5px; }
+.track-artwork img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; border-radius: inherit; }
+.track-initials { display: grid; place-items: center; height: 100%; font-size: 26px; background: var(--glass-bg); }
+.track-overlay { position: absolute; inset: 0; opacity: 0; transition: opacity .15s; background: var(--overlay-bg); border-radius: inherit; }
+.track-card:hover .track-overlay, .track-card:focus-within .track-overlay, .track-overlay:has(.track-menu.open) { opacity: 1; }
+.track-play { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 48px; height: 48px; border: 0; border-radius: 50%; background: var(--accent); color: var(--text-primary); font-size: 20px; cursor: pointer; }
+.overlay-heart { position: absolute; top: 6px; right: 6px; }
+.overlay-menu { position: absolute; bottom: 6px; right: 6px; }
+.track-text { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.track-card .track-text { margin-top: 10px; }
+.track-title { display: block; width: 100%; text-align: left; font: inherit; font-weight: 600; border: 0; padding: 0; background: none; color: var(--text-primary); cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.track-author { font-size: 12px; color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.track-rows { display: flex; flex-direction: column; }
+.track-row { display: grid; grid-template-columns: 28px 40px minmax(160px, 1fr) minmax(90px, .45fr) minmax(90px, .45fr) 56px 34px 34px; align-items: center; gap: 12px; min-height: 56px; padding: 0 8px; border-radius: 4px; cursor: pointer; }
+.track-row .track-artwork { width: 40px; height: 40px; }
+.track-row .track-initials { font-size: 14px; }
+.track-row:hover { background: var(--glass-bg); }
+.track-row.current, .track-card.current { background: var(--accent-translucent); }
+.track-index, .track-category, .track-features, .track-duration { color: var(--text-secondary); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.track-index, .track-duration { text-align: center; }
+.unavailable { opacity: .4; cursor: default; }
+.unavailable .track-title { cursor: default; }
+.track-message { text-align: center; padding: 40px 20px; color: var(--text-secondary); overflow-wrap: anywhere; }
+.track-skeleton.grid { aspect-ratio: 1; border-radius: 6px; }
+.track-skeleton.list { height: 48px; margin: 4px 0; border-radius: 4px; }
+.track-sentinel { height: 8px; }
+.playing-bars { display: inline-flex; gap: 3px; align-items: flex-end; height: 16px; }
+.playing-bars i { width: 3px; height: 100%; background: var(--accent); animation: playing .7s alternate infinite; }
+.playing-bars i:nth-child(2) { animation-delay: -.4s; }.playing-bars i:nth-child(3) { animation-delay: -.2s; }
+@keyframes playing { from { transform: scaleY(.25); } to { transform: scaleY(1); } }
+button:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 900px) { .track-row { grid-template-columns: 24px 40px minmax(120px, 1fr) 56px 34px 34px; }.track-category, .track-features { display: none; } }
+@media (prefers-reduced-motion: reduce) { .playing-bars i { animation: none; }.track-overlay { transition: none; } }

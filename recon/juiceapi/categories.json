@@ -1,0 +1,56 @@
+{
+  "capturedAt": "2026-10-13T23:25:14.734Z",
+  "request": {
+    "method": "GET",
+    "url": "https://juicewrldapi.com/juicewrld/categories/"
+  },
+  "status": 200,
+  "finalUrl": "https://juicewrldapi.com/juicewrld/categories/",
+  "headers": {
+    "access-control-allow-credentials": "false",
+    "access-control-allow-headers": "accept, accept-encoding, authorization, content-type, dnt, origin, user-agent, x-csrftoken, x-requested-with, range, if-range, if-modified-since, if-none-match",
+    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "accept-ranges, content-length, content-range, content-type, last-modified, etag",
+    "access-control-max-age": "86400",
+    "age": "1982",
+    "allow": "GET, OPTIONS",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "max-age=3600",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a4a21a35b8d0ebbc-YYZ",
+    "connection": "keep-alive",
+    "content-encoding": "br",
+    "content-type": "application/json",
+    "date": "Tue, 13 Oct 2026 23:25:15 GMT",
+    "expires": "Tue, 13 Oct 2026 23:52:11 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=CfmZ5IkmCuE8fHg%2F0MLqxCqc3dYc6o3yZjBbXPiif8OILuV1OlWtgGnRw1Twum26MuIh3q7UOBussuU%2Fbu2PkHFKgFrpAaY9iSdcC2QN0s3FYUW9cZ9mOb0OaGTdYpBTC082\"}]}",
+    "server": "cloudflare",
+    "transfer-encoding": "chunked",
+    "vary": "origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+  },
+  "body": {
+    "categories": [
+      {
+        "value": "released",
+        "label": "Released"
+      },
+      {
+        "value": "unreleased",
+        "label": "Unreleased"
+      },
+      {
+        "value": "unsurfaced",
+        "label": "Unsurfaced"
+      },
+      {
+        "value": "recording_session",
+        "label": "Recording Session"
+      }
+    ]
+  }
+}

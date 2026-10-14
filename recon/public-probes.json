@@ -1,0 +1,54 @@
+[
+  {
+    "route": "/unreleased",
+    "status": 200,
+    "htmlBytes": 179641
+  },
+  {
+    "route": "/stem",
+    "status": 200,
+    "htmlBytes": 174975
+  },
+  {
+    "route": "/studio-sessions",
+    "status": 200,
+    "htmlBytes": 189278
+  },
+  {
+    "route": "/released",
+    "status": 200,
+    "htmlBytes": 194743
+  },
+  {
+    "route": "/remasters",
+    "status": 200,
+    "htmlBytes": 165466
+  },
+  {
+    "route": "/miscellaneous",
+    "status": 200,
+    "htmlBytes": 180948
+  },
+  {
+    "audioUrl": "https://media.juicewrldvault.com/songs/uploads/hate-the-other-side-instrumental-da0edb1c-cd79-4038-ba01-057ab21ef408.wav",
+    "status": 206,
+    "headers": {
+      "accept-ranges": "bytes",
+      "cache-control": "public, max-age=31536000, immutable",
+      "cf-cache-status": "DYNAMIC",
+      "cf-ray": "a4a1f04398133a06-YYZ",
+      "connection": "keep-alive",
+      "content-length": "1024",
+      "content-range": "bytes 0-1023/47575154",
+      "content-type": "audio/wav",
+      "date": "Tue, 13 Oct 2026 22:56:36 GMT",
+      "etag": "\"996fed1e62caa979f7364c5d14469d8d\"",
+      "last-modified": "Tue, 13 Oct 2026 22:20:13 GMT",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wmoclUXAsqKaezPkOK1%2FWa%2BNIVXyj%2FFQBcyiGXPDDwETUgJLxc656u1S1FUpGcGkwMJwrFSc3n3S7Ih5qI6U7MfyBxriH1395vxucDTveZ7ouDwuBVhSyBOzY0LjPNivLWlS8BdBRifLwmE%3D\"}]}",
+      "server": "cloudflare",
+      "speculation-rules": "\"/cdn-cgi/speculation\""
+    },
+    "bytes": 1024
+  }
+]

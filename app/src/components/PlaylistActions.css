@@ -1,0 +1,6 @@
+.playlist-actions { position: relative; }
+.playlist-action-trigger, .playlist-action-menu button { border: 0; border-radius: 4px; background: none; color: var(--text-primary); font: inherit; cursor: pointer; padding: 8px 12px; }
+.playlist-action-trigger { background: var(--glass-bg); }
+.playlist-action-menu { position: absolute; left: 0; top: 100%; min-width: 150px; padding: 6px; background: var(--glass-bg); border: 1px solid var(--glass-border-strong); border-radius: 8px; box-shadow: 0 8px 24px var(--overlay-bg); z-index: 15; }
+.playlist-action-menu button { display: block; width: 100%; text-align: left; }
+.playlist-action-menu button:hover, .playlist-action-menu button:focus-visible { background: var(--glass-bg-hover); }

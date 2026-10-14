@@ -1,0 +1,48 @@
+{
+  "capturedAt": "2026-10-13T23:26:22.818Z",
+  "track": {
+    "id": 94316,
+    "public_id": 2354,
+    "name": "2MININHELL",
+    "path": "Compilation/2. Unreleased Discography/1. JUICED UP THE EP (Sessions)/2MININHELL.mp3"
+  },
+  "request": {
+    "method": "GET",
+    "url": "https://juicewrldapi.com/juicewrld/files/download/?path=Compilation%2F2.+Unreleased+Discography%2F1.+JUICED+UP+THE+EP+%28Sessions%29%2F2MININHELL.mp3",
+    "headers": {
+      "Range": "bytes=0-63",
+      "Origin": "http://localhost:5173"
+    }
+  },
+  "status": 206,
+  "statusText": "Partial Content",
+  "finalUrl": "https://juicewrldapi.com/juicewrld/files/download/?path=Compilation%2F2.+Unreleased+Discography%2F1.+JUICED+UP+THE+EP+%28Sessions%29%2F2MININHELL.mp3",
+  "redirected": false,
+  "headers": {
+    "accept-ranges": "bytes, bytes",
+    "access-control-allow-headers": "Range, If-Range, If-Modified-Since, If-None-Match, Authorization, Origin, Accept",
+    "access-control-allow-methods": "GET, OPTIONS, HEAD",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Accept-Ranges, Content-Length, Content-Range, Content-Type, ETag, Last-Modified",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "public, max-age=3600",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a4a21bdf7e17e3ce-YYZ",
+    "connection": "keep-alive",
+    "content-disposition": "inline; filename=\"2MININHELL.mp3\"",
+    "content-length": "64",
+    "content-range": "bytes 0-63/9956956",
+    "content-type": "audio/mpeg",
+    "date": "Tue, 13 Oct 2026 23:26:23 GMT",
+    "etag": "\"69968534-97ee5c\"",
+    "last-modified": "Thu, 19 Feb 2026 03:36:20 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Wg0LBGZFDLZ4gbWJFxQXgQ%2BhTLYT8qRLOoGU9zOcDJhmAniBQB5WeoMJCQuIIgGFSh8BhNxrSDQ4ox4nE4n4an0BgdDpm8RfhsiFr4mmpfJaHGnvdNAx0SrxuvgWfva%2BTDpP\"}]}",
+    "server": "cloudflare"
+  },
+  "firstBytesHex": "49443303000000401c2654414c420000003b000001fffe4a00550049004300450044002000550050002000540048004500200045005000200028005300650073",
+  "firstBytesBase64": "SUQzAwAAAEAcJlRBTEIAAAA7AAAB//5KAFUASQBDAEUARAAgAFUAUAAgAFQASABFACAARQBQACAAKABTAGUAcw==",
+  "firstBytesAscii": "ID3....@.&TALB...;.....J.U.I.C.E.D. .U.P. .T.H.E. .E.P. .(.S.e.s",
+  "capturedBytes": 64,
+  "deliveredBytesBeforeCancel": 64
+}

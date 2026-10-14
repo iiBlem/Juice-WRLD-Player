@@ -1,0 +1,8 @@
+.bulk-download-toast.glass-panel { box-sizing: border-box; width: 320px; max-width: calc(100vw - 40px); padding: 16px; border: 1px solid var(--glass-border-strong); border-radius: 12px; color: var(--text-primary); }
+.bulk-download-toast h2 { margin: 0 0 12px; font-size: 15px; overflow-wrap: anywhere; }
+.bulk-download-toast p { margin: 8px 0; font-size: 13px; }
+.bulk-download-progress { height: 5px; overflow: hidden; border-radius: 3px; background: var(--glass-bg-hover); }
+.bulk-download-progress > div { height: 100%; background: var(--accent); }
+.bulk-download-track { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-secondary); }
+.bulk-download-error { color: var(--accent); overflow-wrap: anywhere; }
+.bulk-download-toast button { margin-top: 4px; }

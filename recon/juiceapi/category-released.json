@@ -1,0 +1,95 @@
+{
+  "capturedAt": "2026-10-13T23:25:58.514Z",
+  "request": {
+    "method": "GET",
+    "url": "https://juicewrldapi.com/juicewrld/songs/?category=released&page=1&page_size=1"
+  },
+  "status": 200,
+  "finalUrl": "https://juicewrldapi.com/juicewrld/songs/?category=released&page=1&page_size=1",
+  "headers": {
+    "access-control-allow-credentials": "false",
+    "access-control-allow-headers": "accept, accept-encoding, authorization, content-type, dnt, origin, user-agent, x-csrftoken, x-requested-with, range, if-range, if-modified-since, if-none-match",
+    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "accept-ranges, content-length, content-range, content-type, last-modified, etag",
+    "access-control-max-age": "86400",
+    "allow": "GET, HEAD, OPTIONS",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "max-age=14400",
+    "cf-cache-status": "MISS",
+    "cf-ray": "a4a21b47387fa226-YYZ",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-type": "application/json",
+    "date": "Tue, 13 Oct 2026 23:25:59 GMT",
+    "expires": "Tue, 13 Oct 2026 23:30:57 GMT",
+    "last-modified": "Tue, 13 Oct 2026 23:25:59 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Iw4JF69nJuxJXAAjFjKr5rReZKo1aisAbFxXII%2B5%2BDapft3tJrGZn0i90JGeFWsIzp29s9v0FGzPF8KUiPzZa2u3pI%2Bf4GL4z4jqRdAc6gpBQH4PF2BY%2F%2Byup3Mqf1mk251z\"}]}",
+    "server": "cloudflare",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding, origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+  },
+  "body": {
+    "count": 325,
+    "next": "http://juicewrldapi.com/juicewrld/songs/?category=released&page=2&page_size=1",
+    "previous": null,
+    "results": [
+      {
+        "id": 94023,
+        "public_id": 2368,
+        "name": "I SWEAR",
+        "original_key": "I SWEAR",
+        "category": "released",
+        "era": {
+          "id": 101,
+          "name": "jute",
+          "description": "JUICED UP THE EP",
+          "time_frame": "January 2014 - January 30th 2016",
+          "play_count": 34108
+        },
+        "path": "Compilation/1. Released Discography/1. JUICED UP THE EP/I SWEAR.mp3",
+        "track_titles": [
+          "I SWEAR"
+        ],
+        "credited_artists": "JuiceTheKidd",
+        "producers": "Spaycjones",
+        "engineers": "Romel Williams",
+        "recording_locations": "Enviyon Entertainment Recording Studio, Country Club Hills, Chicago, IL.",
+        "record_dates": "Recorded\nSeptember 24, 2015.",
+        "length": "4:11",
+        "bitrate": "",
+        "bpm": "",
+        "key": "",
+        "additional_information": "Released on SoundCloud as Track #1 on 'JUICED UP THE EP'.",
+        "file_names": "I SWEAR - JUICETHEKID",
+        "instrumentals": "Post Malone Type Beat Prod.Spaycjones",
+        "preview_date": "First Teased\nSeptember 25, 2015.",
+        "release_date": "Released\nJanuary 31, 2016.",
+        "dates": "",
+        "session_titles": "",
+        "session_tracking": "",
+        "instrumental_names": "",
+        "groupbuy_info": {
+          "additional_info": "",
+          "price": "",
+          "start_date": "",
+          "end_date": "",
+          "blind": false,
+          "finished": false,
+          "surfaced_with_og": false
+        },
+        "lyrics": "Woah, woah\nI don't know what planet I'm on (Ayy)\nAll we do is roll up that strong, boy I swear\nBoy, I swear, I take a couple hits then I'm gone (Ayy)\n\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nI'm the man, I'm the man\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nI'm the man, I'm the man\nI'm the man, I'm the man, ayy\n\nBoy I swear (Boy), I'm better than ever and I'ma be better forever\nBoy I swear (Boy), she fuckin' whoever whenever, I fuck her whenever\nBoy I swear (I swear), just keep it together, the money I get it forever\nBoy I swear (I swear), forever, forever, fucking forever, forever\nBoy I swear, I'm laced up, caked up with this ecstasy (I'm laced up)\nI treat these drugs like my women, I keep 'em next to me, ayy (I need 'em)\nI got more green than that spinach, I need my veggies (Yah, yah)\nBreathing heavy but steady, this X, it keep me from stressin'\nI'm gone, ayy, ayy (Boy I swear that I'm gone)\nI don't know what planet I'm on (I don't know what planet I'm on)\nAll we do is roll up that strong (All we do is roll up that strong, ayy, ayy)\nTake a couple hits then I'm gone, and we gone (Take a couple hits then I'm gone, ayy)\n\n\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nI'm the man, I'm the man\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nI'm the man, I'm the man\nI'm the man, I'm the man, ayy\n\nGirl I swear, you wasn't there when a nigga needed you (No, no, no)\nI was doing everything I could to please you (Yes, I was)\nNow I'm finna leave you (I am), your ass is see-through (You wish)\nI ain't Stevie, but I swear that I can't see you (Swish)\nAyy, and I'ma tell you what I do (Yah)\nI'm the man, I'm the man, with or without you\nI don't need you at all (No), abide by my rules (Yeah)\nI'ma smash every day (I will), I'ma lose my cool (True)\nBoy I swear, boy I swear, get this mansion for my mama (Yeah)\nBoy I swear, get a condo, a beach house in the Bahamas (Yeah, yeah)\nBoy I swear, smokin' weed and talkin' business with Obama (Yeah yeah, yeah yeah, yeah yeah)\nBoy I swear, I'ma do it all, and I don't want the drama\n\n\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nI'm the man, I'm the man\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nI'm the man, I'm the man\nI'm the man, ayy\n\nYou know, I swear, you know these niggas talking\nBut me, I am not caring\nI never walk the streets, I just run 'em, ain't talkin' errands\nGoddamn\nI'm the man, I'm the man\nI'm the man, I'm the man\nBoy I swear, boy I swear\nBoy, I swear, I'm that man\nI'm that man, I'm that man, I'm that man\n\n\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nBoy I swear, boy I swear\nI'm the man, I'm the man\nI'm the man, I'm the man\nI'm the man, ayy\n\nBoy, I swear that I'm gone\nI don't know what planet I'm on\nAll we do is roll up the strong\nTake a-",
+        "synced_lyrics": "[0:02.19] Woah, woah\n[0:03.84] I don't know what planet I'm on (Ayy)\n[0:07.52] All we do is roll up that strong, boy I swear\n[0:11.06] Boy, I swear, I take a couple hits then I'm gone (Ayy)\n[0:14.30] Boy I swear, boy I swear\n[0:16.06] I'm the man, I'm the man\n[0:17.94] Boy I swear, boy I swear\n[0:19.72] I'm the man, I'm the man\n[0:21.62] Boy I swear, boy I swear\n[0:23.34] I'm the man, I'm the man\n[0:25.52] I'm the man, I'm the man\n[0:27.30] I'm the man, I'm the man\n[0:28.84] Boy I swear, boy I swear\n[0:30.86] I'm the man, I'm the man\n[0:32.72] Boy I swear, boy I swear\n[0:34.58] I'm the man, I'm the man\n[0:36.40] Boy I swear, boy I swear\n[0:38.18] I'm the man, I'm the man\n[0:40.19] I'm the man, I'm the man\n[0:42.08] I'm the man, I'm the man, ayy\n[0:43.74] Boy I swear (Boy), I'm better than ever and I'ma be better forever\n[0:47.50] Boy I swear (Boy), she fuckin' whoever whenever, I fuck her whenever\n[0:51.16] Boy I swear (I swear), just keep it together, the money I get it forever\n[0:54.84] Boy I swear (I swear), forever, forever, fucking forever, forever\n[0:58.52] Boy I swear, I'm laced up, caked up with this ecstasy (I'm laced up)\n[1:03.26] I treat these drugs like my women, I keep 'em next to me, ayy (I need 'em)\n[1:06.68] I got more green than that spinach, I need my veggies (Yah, yah)\n[1:09.84] Breathing heavy but steady, this X, it keep me from stressin'\n[1:13.42] I'm gone, ayy, ayy (Boy I swear that I'm gone)\n[1:15.56] I don't know what planet I'm on (I don't know what planet I'm on)\n[1:19.54] All we do is roll up that strong (All we do is roll up that strong, ayy, ayy)\n[1:23.06] Take a couple hits then I'm gone, and we gone (Take a couple hits then I'm gone, ayy)\n[1:28.10] Boy I swear, boy I swear\n[1:29.94] I'm the man, I'm the man\n[1:31.78] Boy I swear, boy I swear\n[1:33.60] I'm the man, I'm the man\n[1:35.68] Boy I swear, boy I swear\n[1:37.36] I'm the man, I'm the man\n[1:39.36] I'm the man, I'm the man\n[1:41.02] I'm the man, I'm the man\n[1:42.66] Boy I swear, boy I swear\n[1:44.66] I'm the man, I'm the man\n[1:46.54] Boy I swear, boy I swear\n[1:48.44] I'm the man, I'm the man\n[1:50.18] Boy I swear, boy I swear\n[1:52.02] I'm the man, I'm the man\n[1:53.96] I'm the man, I'm the man\n[1:55.74] I'm the man, I'm the man, ayy\n[1:57.50] Girl I swear, you wasn't there when a nigga needed you (No, no, no)\n[2:02.22] I was doing everything I could to please you (Yes, I was)\n[2:05.46] Now I'm finna leave you (I am), your ass is see-through (You wish)\n[2:09.44] I ain't Stevie, but I swear that I can't see you (Swish)\n[2:13.30] Ayy, and I'ma tell you what I do (Yah)\n[2:16.34] I'm the man, I'm the man, with or without you\n[2:19.88] I don't need you at all (No), abide by my rules (Yeah)\n[2:23.70] I'ma smash every day (I will), I'ma lose my cool (True)\n[2:27.34] Boy I swear, boy I swear, get this mansion for my mama (Yeah)\n[2:30.94] Boy I swear, get a condo, a beach house in the Bahamas (Yeah, yeah)\n[2:34.32] Boy I swear, smokin' weed and talkin' business with Obama (Yeah yeah, yeah yeah, yeah yeah)\n[2:38.30] Boy I swear, I'ma do it all, and I don't want the drama\n[2:41.96] Boy I swear, boy I swear\n[2:43.92] I'm the man, I'm the man\n[2:45.64] Boy I swear, boy I swear\n[2:47.46] I'm the man, I'm the man\n[2:49.34] Boy I swear, boy I swear\n[2:51.00] I'm the man, I'm the man\n[2:53.08] I'm the man, I'm the man\n[2:55.02] I'm the man, I'm the man\n[2:56.56] Boy I swear, boy I swear\n[2:58.52] I'm the man, I'm the man\n[3:00.46] Boy I swear, boy I swear\n[3:02.26] I'm the man, I'm the man\n[3:04.10] Boy I swear, boy I swear\n[3:05.60] I'm the man, I'm the man\n[3:07.80] I'm the man, I'm the man\n[3:09.81] I'm the man, ayy\n[3:11.90] You know, I swear, you know these niggas talking\n[3:16.12] But me, I am not caring\n[3:18.14] I never walk the streets, I just run 'em, ain't talkin' errands\n[3:21.76] Goddamn\n[3:22.68] I'm the man, I'm the man\n[3:24.48] I'm the man, I'm the man\n[3:26.18] Boy I swear, boy I swear\n[3:33.54] Boy, I swear, I'm that man\n[3:38.16] I'm that man, I'm that man, I'm that man\n[3:41.02] Boy I swear, boy I swear\n[3:42.86] I'm the man, I'm the man\n[3:44.74] Boy I swear, boy I swear\n[3:46.54] I'm the man, I'm the man\n[3:48.36] Boy I swear, boy I swear\n[3:50.20] I'm the man, I'm the man\n[3:52.14] I'm the man, I'm the man\n[3:53.96] I'm the man, ayy\n[3:56.14] Boy, I swear that I'm gone\n[3:59.98] I don't know what planet I'm on\n[4:03.74] All we do is roll up the strong\n[4:06.38] Take a-",
+        "album": "",
+        "snippets": [],
+        "date_leaked": "",
+        "leak_type": "EP Track",
+        "image_url": "/assets/jute.png"
+      }
+    ]
+  }
+}

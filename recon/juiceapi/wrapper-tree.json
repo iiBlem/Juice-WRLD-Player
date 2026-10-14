@@ -1,0 +1,235 @@
+{
+  "capturedAt": "2026-10-13T23:25:11.312Z",
+  "request": {
+    "method": "GET",
+    "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/trees/main?recursive=1"
+  },
+  "status": 200,
+  "finalUrl": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/trees/main?recursive=1",
+  "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning",
+    "cache-control": "public, max-age=60, s-maxage=60",
+    "content-encoding": "gzip",
+    "content-length": "1323",
+    "content-security-policy": "default-src 'none'",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Tue, 13 Oct 2026 23:25:12 GMT",
+    "etag": "W/\"acf16734f7d4ac2a2ae2cbb4d37e81fb758d15472b8221ac0da62d099edd85c9\"",
+    "last-modified": "Fri, 01 May 2026 07:26:33 GMT",
+    "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+    "server": "github.com",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "vary": "Accept,Accept-Encoding, Accept, X-Requested-With",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "deny",
+    "x-github-api-version-selected": "2022-11-28",
+    "x-github-edge-region": "iad",
+    "x-github-media-type": "github.v3; format=json",
+    "x-github-request-id": "D9D3:140D0B:21C951:6FF60C:6ACEBDD8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "59",
+    "x-ratelimit-reset": "1791937512",
+    "x-ratelimit-resource": "core",
+    "x-ratelimit-used": "1",
+    "x-xss-protection": "0"
+  },
+  "body": {
+    "sha": "6f54b5f98532c5ffb3a0bc716044147175dad2e8",
+    "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/trees/6f54b5f98532c5ffb3a0bc716044147175dad2e8",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5596b9e27c59bd928d4454c249663880297f2d50",
+        "size": 196,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/5596b9e27c59bd928d4454c249663880297f2d50"
+      },
+      {
+        "path": "API_ENDPOINTS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "abca11a0ea398ca6b62c4250d144a7f340c8b909",
+        "size": 7092,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/abca11a0ea398ca6b62c4250d144a7f340c8b909"
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0970b674f88b8f044cde34fb987c02a0971a4632",
+        "size": 1957,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/0970b674f88b8f044cde34fb987c02a0971a4632"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "003c8817a69419cadd8ac38c9bdaaf4f59482374",
+        "size": 1102,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/003c8817a69419cadd8ac38c9bdaaf4f59482374"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29c7ba97ac74255bfe670a1ba792928d7b7161c3",
+        "size": 9630,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/29c7ba97ac74255bfe670a1ba792928d7b7161c3"
+      },
+      {
+        "path": "juicewrld_api_wrapper",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e8a7be91a2d86ae55189950bde02a2b997101566",
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/trees/e8a7be91a2d86ae55189950bde02a2b997101566"
+      },
+      {
+        "path": "juicewrld_api_wrapper/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39438cc11fe85de9e68fda2c1294041a9f1e4b8d",
+        "size": 336,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/39438cc11fe85de9e68fda2c1294041a9f1e4b8d"
+      },
+      {
+        "path": "juicewrld_api_wrapper/__pycache__",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4a1a96f0e5f185faa14c0ba4ec10e114ad2b9e01",
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/trees/4a1a96f0e5f185faa14c0ba4ec10e114ad2b9e01"
+      },
+      {
+        "path": "juicewrld_api_wrapper/__pycache__/__init__.cpython-311.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "000c77d9c94cb576f1aef10389a5228a8f892531",
+        "size": 633,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/000c77d9c94cb576f1aef10389a5228a8f892531"
+      },
+      {
+        "path": "juicewrld_api_wrapper/__pycache__/__init__.cpython-313.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bcdeea0a057ae06e217aa4012de3d1e6cbe965b9",
+        "size": 538,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/bcdeea0a057ae06e217aa4012de3d1e6cbe965b9"
+      },
+      {
+        "path": "juicewrld_api_wrapper/__pycache__/client.cpython-311.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff599d951416e2b0bfa83a3461522139c9c5abd0",
+        "size": 21976,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/ff599d951416e2b0bfa83a3461522139c9c5abd0"
+      },
+      {
+        "path": "juicewrld_api_wrapper/__pycache__/client.cpython-313.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52a5459803a97255aaf0e5929b5e54953cb59742",
+        "size": 24079,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/52a5459803a97255aaf0e5929b5e54953cb59742"
+      },
+      {
+        "path": "juicewrld_api_wrapper/__pycache__/exceptions.cpython-311.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "986ff3f5aa84ce922cfde90c4e0d92d8f56a829a",
+        "size": 1500,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/986ff3f5aa84ce922cfde90c4e0d92d8f56a829a"
+      },
+      {
+        "path": "juicewrld_api_wrapper/__pycache__/exceptions.cpython-313.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4385b7ae7ebfb0ce282828f0a656029cf8ac1ef1",
+        "size": 1349,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/4385b7ae7ebfb0ce282828f0a656029cf8ac1ef1"
+      },
+      {
+        "path": "juicewrld_api_wrapper/__pycache__/models.cpython-311.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c11fdac9b1612404d149bd20a8dd074bb9105fe",
+        "size": 4496,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/4c11fdac9b1612404d149bd20a8dd074bb9105fe"
+      },
+      {
+        "path": "juicewrld_api_wrapper/__pycache__/models.cpython-313.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "70af741cc24e8adb775d91087dd10c246571f239",
+        "size": 3894,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/70af741cc24e8adb775d91087dd10c246571f239"
+      },
+      {
+        "path": "juicewrld_api_wrapper/__pycache__/test_wrapper.cpython-313.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c703a806fc917c63da91f70ab1cafae641f3822",
+        "size": 19004,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/5c703a806fc917c63da91f70ab1cafae641f3822"
+      },
+      {
+        "path": "juicewrld_api_wrapper/client.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31d49445e0d0331d4e3635245345dd396f6ea622",
+        "size": 39088,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/31d49445e0d0331d4e3635245345dd396f6ea622"
+      },
+      {
+        "path": "juicewrld_api_wrapper/examples.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "22d624bc3cee726035f8336ce7e4f41f76870153",
+        "size": 6509,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/22d624bc3cee726035f8336ce7e4f41f76870153"
+      },
+      {
+        "path": "juicewrld_api_wrapper/exceptions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4ac93ccc2d7d4058bae46b99f54807cbcb356c9",
+        "size": 268,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/a4ac93ccc2d7d4058bae46b99f54807cbcb356c9"
+      },
+      {
+        "path": "juicewrld_api_wrapper/models.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c9d4151cd59d52ebc10c0c69d99a04097f6e1b6",
+        "size": 1734,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/6c9d4151cd59d52ebc10c0c69d99a04097f6e1b6"
+      },
+      {
+        "path": "juicewrld_api_wrapper/test_wrapper.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd3fe4ed79c21b2373060a78207c535237b806c3",
+        "size": 13513,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/cd3fe4ed79c21b2373060a78207c535237b806c3"
+      },
+      {
+        "path": "requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e7cd5a97a2709fdc0bfd7c85ea659de9f643e00",
+        "size": 107,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/5e7cd5a97a2709fdc0bfd7c85ea659de9f643e00"
+      },
+      {
+        "path": "setup.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "55abdf11e1bbfa746c030da7f2185103b73e59ad",
+        "size": 2358,
+        "url": "https://api.github.com/repos/HackinHood/juicewrld-api-wrapper/git/blobs/55abdf11e1bbfa746c030da7f2185103b73e59ad"
+      }
+    ],
+    "truncated": false
+  }
+}

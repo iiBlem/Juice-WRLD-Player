@@ -1,0 +1,45 @@
+{
+  "capturedAt": "2026-10-13T23:26:09.417Z",
+  "request": {
+    "method": "GET",
+    "url": "https://juicewrldapi.com/juicewrld/files/info/?path=Compilation%2F2.+Unreleased+Discography%2F1.+JUICED+UP+THE+EP+%28Sessions%29%2F2MININHELL.mp3"
+  },
+  "status": 200,
+  "finalUrl": "https://juicewrldapi.com/juicewrld/files/info/?path=Compilation%2F2.+Unreleased+Discography%2F1.+JUICED+UP+THE+EP+%28Sessions%29%2F2MININHELL.mp3",
+  "headers": {
+    "access-control-allow-credentials": "false",
+    "access-control-allow-headers": "accept, accept-encoding, authorization, content-type, dnt, origin, user-agent, x-csrftoken, x-requested-with, range, if-range, if-modified-since, if-none-match",
+    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "accept-ranges, content-length, content-range, content-type, last-modified, etag",
+    "access-control-max-age": "86400",
+    "allow": "GET, OPTIONS",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a4a21b8f78f4a226-YYZ",
+    "connection": "keep-alive",
+    "content-encoding": "br",
+    "content-type": "application/json",
+    "date": "Tue, 13 Oct 2026 23:26:10 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hyp9m%2FRF5SVtZKOe5vEpWKhJFWaLprTPqNkkeaEF1Rl6gGK2CJv%2BiHSi5RCbWKgpep6Ozw0xLOXwZXwqcVGRJnFkseNGTnqUgV67VQtln%2Bd0sjBI8qUMIiC9L6aSwo4c7puO\"}]}",
+    "server": "cloudflare",
+    "transfer-encoding": "chunked",
+    "vary": "origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+  },
+  "body": {
+    "name": "2MININHELL.mp3",
+    "path": "Compilation/2. Unreleased Discography/1. JUICED UP THE EP (Sessions)/2MININHELL.mp3",
+    "type": "file",
+    "size": 9956956,
+    "size_human": "9.5 MB",
+    "modified": "2026-02-18T22:36:20.083735",
+    "created": "2026-01-02T22:34:37.964405",
+    "extension": ".mp3",
+    "mime_type": "audio/mpeg",
+    "encoding": null
+  }
+}

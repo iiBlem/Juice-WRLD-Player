@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-10-13T23:25:17.691Z",
+  "request": {
+    "method": "GET",
+    "url": "https://juicewrldapi.com/juicewrld/player/songs/?page=1&page_size=2"
+  },
+  "status": 404,
+  "finalUrl": "https://juicewrldapi.com/juicewrld/player/songs/?page=1&page_size=2",
+  "headers": {
+    "access-control-allow-credentials": "false",
+    "access-control-allow-headers": "accept, accept-encoding, authorization, content-type, dnt, origin, user-agent, x-csrftoken, x-requested-with, range, if-range, if-modified-since, if-none-match",
+    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "accept-ranges, content-length, content-range, content-type, last-modified, etag",
+    "access-control-max-age": "86400",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a4a21a4a7ca4ebbc-YYZ",
+    "connection": "keep-alive",
+    "content-encoding": "br",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Tue, 13 Oct 2026 23:25:18 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wIooDcx0Gg4LH1uDH5CyPpAjyWPOAsYv%2FP4PA4aCMemuX5vmsq4%2B1XuRKBmDyuyPICYbxqvBGVgrNNxlkzzzNGmC%2BvuchrHKybof7vnME5GXlH0UpyAXwd6YkFCVLlXK96X5\"}]}",
+    "server": "cloudflare",
+    "transfer-encoding": "chunked",
+    "vary": "origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+  },
+  "body": "\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>Not Found</title>\n</head>\n<body>\n  <h1>Not Found</h1><p>The requested resource was not found on this server.</p>\n</body>\n</html>\n"
+}

@@ -1,0 +1,141 @@
+{
+  "capturedAt": "2026-10-13T23:28:37.613Z",
+  "request": {
+    "method": "GET",
+    "url": "https://juicewrldapi.com/juicewrld/eras/?page=2"
+  },
+  "status": 200,
+  "finalUrl": "https://juicewrldapi.com/juicewrld/eras/?page=2",
+  "headers": {
+    "access-control-allow-credentials": "false",
+    "access-control-allow-headers": "accept, accept-encoding, authorization, content-type, dnt, origin, user-agent, x-csrftoken, x-requested-with, range, if-range, if-modified-since, if-none-match",
+    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "accept-ranges, content-length, content-range, content-type, last-modified, etag",
+    "access-control-max-age": "86400",
+    "age": "225",
+    "allow": "GET, HEAD, OPTIONS",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "max-age=900",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a4a21f2aea6f103a-YYZ",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-type": "application/json",
+    "date": "Tue, 13 Oct 2026 23:28:38 GMT",
+    "expires": "Tue, 13 Oct 2026 23:39:51 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wikpIclP5ffH4IGCLXY17BBG7msktemejIxUaqnnA5KtKnZtZTXh6QsxJdtqFiWwvtnig6DXXxyzZoLaayZLuuvmCWsxH%2BYSJSPJr%2BxlslPgNgXbjUX1TIGjxGhg4S15BbRm\"}]}",
+    "server": "cloudflare",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding, origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+  },
+  "body": {
+    "count": 34,
+    "next": null,
+    "previous": "http://juicewrldapi.com/juicewrld/eras/",
+    "results": [
+      {
+        "id": 121,
+        "name": "GB&GR (AE)",
+        "description": "GB&GR Anniversary Edition",
+        "time_frame": "May 2021",
+        "play_count": 171
+      },
+      {
+        "id": 122,
+        "name": "GB&GR (5YAE)",
+        "description": "GB&GR 5 Year Anniversary Edition",
+        "time_frame": "May 2023",
+        "play_count": 222
+      },
+      {
+        "id": 123,
+        "name": "UNS: JW",
+        "description": "Up Next Session: Juice WRLD",
+        "time_frame": "January 2024",
+        "play_count": 484
+      },
+      {
+        "id": 124,
+        "name": "FD (CE)",
+        "description": "Fighting Demons Collector's Edition",
+        "time_frame": "March 2022",
+        "play_count": 118
+      },
+      {
+        "id": 125,
+        "name": "Smule",
+        "description": "Smule releases grouping",
+        "time_frame": "2014",
+        "play_count": 932
+      },
+      {
+        "id": 126,
+        "name": "YouTube",
+        "description": "YouTube releases grouping",
+        "time_frame": "2020",
+        "play_count": 832
+      },
+      {
+        "id": 127,
+        "name": "SoundCloud",
+        "description": "SoundCloud releases grouping",
+        "time_frame": "2015",
+        "play_count": 13169
+      },
+      {
+        "id": 128,
+        "name": "KILL'S WRLD",
+        "description": "KILL'S WRLD era",
+        "time_frame": "June 2018",
+        "play_count": 1616
+      },
+      {
+        "id": 129,
+        "name": "TTZ",
+        "description": "The Twilight Zone project",
+        "time_frame": "July 6th 2016",
+        "play_count": 1279
+      },
+      {
+        "id": 130,
+        "name": "DRFL (TV)",
+        "description": "Death Race For Love TV mixes",
+        "time_frame": "February 2019",
+        "play_count": 821
+      },
+      {
+        "id": 131,
+        "name": "WTLA",
+        "description": "Whatever, They Leaked Already project",
+        "time_frame": "November 28th 2019",
+        "play_count": 1314
+      },
+      {
+        "id": 132,
+        "name": "LND (EOV)",
+        "description": "Legends Never Die extended outro version",
+        "time_frame": "May 2020",
+        "play_count": 1057
+      },
+      {
+        "id": 133,
+        "name": "AGATS2 (AV)",
+        "description": "AGATS2 alternate versions project",
+        "time_frame": "November 19th 2024",
+        "play_count": 189
+      },
+      {
+        "id": 134,
+        "name": "Vinyl",
+        "description": "Vinyl mixes collection",
+        "time_frame": "(May 23th 2018- Present)",
+        "play_count": 338
+      }
+    ]
+  }
+}

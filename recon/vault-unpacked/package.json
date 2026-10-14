@@ -1,0 +1,16 @@
+{
+  "name": "juicewrldvault-desktop",
+  "version": "0.0.57",
+  "description": "Juice WRLD Vault desktop app",
+  "main": "main.js",
+  "author": "Juice WRLD Vault",
+  "license": "UNLICENSED",
+  "private": true,
+  "overrides": {
+    "tmp": "0.2.6"
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.9",
+    "electron-log": "^5.4.4"
+  }
+}

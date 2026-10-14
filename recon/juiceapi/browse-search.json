@@ -1,0 +1,79 @@
+{
+  "capturedAt": "2026-10-13T23:29:03.058Z",
+  "request": {
+    "method": "GET",
+    "url": "https://juicewrldapi.com/juicewrld/files/browse/?path=Compilation&search=2MININHELL"
+  },
+  "status": 200,
+  "finalUrl": "https://juicewrldapi.com/juicewrld/files/browse/?path=Compilation&search=2MININHELL",
+  "headers": {
+    "access-control-allow-credentials": "false",
+    "access-control-allow-headers": "accept, accept-encoding, authorization, content-type, dnt, origin, user-agent, x-csrftoken, x-requested-with, range, if-range, if-modified-since, if-none-match",
+    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "accept-ranges, content-length, content-range, content-type, last-modified, etag",
+    "access-control-max-age": "86400",
+    "allow": "GET, OPTIONS",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "public, max-age=30",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a4a21fcf9ed0ab84-YYZ",
+    "connection": "keep-alive",
+    "content-encoding": "br",
+    "content-type": "application/json",
+    "date": "Tue, 13 Oct 2026 23:29:04 GMT",
+    "etag": "W/\"e614df522915d2302695c49571fc6b19a4aa41c4\"",
+    "last-modified": "Thu, 19 Feb 2026 13:35:23 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Y0pS%2BBTfPUgXz3ctQhNKNn7XbbpfFXJ8fKei4DRbRU0gj6z7geo6onnWljwT79qdV2zoE5XtelKEWcji4xq4Icr4ODnHOgfWp%2FW5uam7PtOmJnsgs%2BO8BG8%2B%2FaMzk%2BuAygIL\"}]}",
+    "server": "cloudflare",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding, origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+  },
+  "body": {
+    "current_path": "Compilation",
+    "path_parts": [
+      {
+        "name": "Compilation",
+        "path": "Compilation"
+      }
+    ],
+    "items": [
+      {
+        "name": "2MININHELL (Pt. 2).mp3",
+        "path": "Compilation/2. Unreleased Discography/2. affliction (Sessions)/2MININHELL (Pt. 2).mp3",
+        "type": "file",
+        "size": 8315460,
+        "size_human": "7.9 MB",
+        "modified": "2026-02-18T22:50:55.524595",
+        "extension": ".mp3",
+        "mime_type": "audio/mpeg",
+        "duration": "3:24"
+      },
+      {
+        "name": "2MININHELL.mp3",
+        "path": "Compilation/2. Unreleased Discography/1. JUICED UP THE EP (Sessions)/2MININHELL.mp3",
+        "type": "file",
+        "size": 9956956,
+        "size_human": "9.5 MB",
+        "modified": "2026-02-18T22:36:20.083735",
+        "extension": ".mp3",
+        "mime_type": "audio/mpeg",
+        "duration": "3:42"
+      }
+    ],
+    "total_items": 2,
+    "total_files": 2,
+    "total_directories": 0,
+    "search_query": "2MININHELL",
+    "is_recursive_search": true,
+    "page": 1,
+    "page_size": 2,
+    "page_count": 1,
+    "has_more": false,
+    "cached": false
+  }
+}

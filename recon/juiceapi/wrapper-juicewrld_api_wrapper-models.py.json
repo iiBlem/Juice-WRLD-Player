@@ -1,0 +1,38 @@
+{
+  "capturedAt": "2026-10-13T23:25:12.252Z",
+  "request": {
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/HackinHood/juicewrld-api-wrapper/6f54b5f98532c5ffb3a0bc716044147175dad2e8/juicewrld_api_wrapper/models.py"
+  },
+  "status": 200,
+  "finalUrl": "https://raw.githubusercontent.com/HackinHood/juicewrld-api-wrapper/6f54b5f98532c5ffb3a0bc716044147175dad2e8/juicewrld_api_wrapper/models.py",
+  "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "cache-control": "max-age=300",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-length": "586",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "content-type": "text/plain; charset=utf-8",
+    "cross-origin-resource-policy": "cross-origin",
+    "date": "Tue, 13 Oct 2026 23:25:13 GMT",
+    "etag": "W/\"8f4832cea8678879360ffc74f45d579ac61b21159940e5e725940211aa40adfc\"",
+    "expires": "Tue, 13 Oct 2026 23:30:13 GMT",
+    "source-age": "0",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "Authorization,Accept-Encoding",
+    "via": "1.1 varnish",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-content-type-options": "nosniff",
+    "x-fastly-request-id": "f26276af8ef228e885f8f409f2a31ccfbf942b1a",
+    "x-frame-options": "deny",
+    "x-github-edge-region": "iad",
+    "x-github-request-id": "943A:3854BE:79487:989BD:6ACEBDD9",
+    "x-served-by": "cache-yyz4538-YYZ",
+    "x-timer": "S1791933913.185262,VS0,VE94",
+    "x-xss-protection": "1; mode=block"
+  },
+  "body": "from dataclasses import dataclass\r\nfrom typing import List, Optional, Dict, Any\r\nfrom datetime import datetime\r\n\r\n@dataclass\r\nclass Artist:\r\n    id: int\r\n    name: str\r\n    bio: str\r\n\r\n@dataclass\r\nclass Album:\r\n    id: int\r\n    title: str\r\n    type: str\r\n    artist: Artist\r\n    release_date: datetime\r\n    description: str\r\n\r\n@dataclass\r\nclass Era:\r\n    id: int\r\n    name: str\r\n    description: str\r\n    time_frame: str\r\n\r\n@dataclass\r\nclass Song:\r\n    id: int\r\n    name: str\r\n    original_key: str\r\n    category: str\r\n    era: Era\r\n    track_titles: List[str]\r\n    credited_artists: str\r\n    producers: str\r\n    engineers: str\r\n    additional_information: str\r\n    file_names: str\r\n    instrumentals: str\r\n    recording_locations: str\r\n    record_dates: str\r\n    preview_date: str\r\n    release_date: str\r\n    dates: str\r\n    length: str\r\n    leak_type: str\r\n    date_leaked: str\r\n    notes: str\r\n    image_url: str\r\n    session_titles: str\r\n    session_tracking: str\r\n    instrumental_names: str\r\n    public_id: str = \"\"\r\n\r\n@dataclass\r\nclass FileInfo:\r\n    name: str\r\n    type: str\r\n    size: int\r\n    size_human: str\r\n    path: str\r\n    extension: str\r\n    mime_type: str\r\n    created: datetime\r\n    modified: datetime\r\n    encoding: Optional[str]\r\n\r\n@dataclass\r\nclass DirectoryInfo:\r\n    current_path: str\r\n    path_parts: List[Dict[str, str]]\r\n    items: List[FileInfo]\r\n    total_files: int\r\n    total_directories: int\r\n    search_query: Optional[str]\r\n    is_recursive_search: bool\r\n\r\n@dataclass\r\nclass SearchResult:\r\n    songs: List[Song]\r\n    total: int\r\n    category: Optional[str]\r\n    query_time: str\r\n\r\n@dataclass\r\nclass Stats:\r\n    total_songs: int\r\n    category_stats: Dict[str, int]\r\n    era_stats: Dict[str, int]\r\n\r\n\r\n"
+}

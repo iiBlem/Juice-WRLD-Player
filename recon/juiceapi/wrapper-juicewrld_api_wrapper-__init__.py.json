@@ -1,0 +1,38 @@
+{
+  "capturedAt": "2026-10-13T23:25:11.769Z",
+  "request": {
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/HackinHood/juicewrld-api-wrapper/6f54b5f98532c5ffb3a0bc716044147175dad2e8/juicewrld_api_wrapper/__init__.py"
+  },
+  "status": 200,
+  "finalUrl": "https://raw.githubusercontent.com/HackinHood/juicewrld-api-wrapper/6f54b5f98532c5ffb3a0bc716044147175dad2e8/juicewrld_api_wrapper/__init__.py",
+  "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "cache-control": "max-age=300",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-length": "209",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "content-type": "text/plain; charset=utf-8",
+    "cross-origin-resource-policy": "cross-origin",
+    "date": "Tue, 13 Oct 2026 23:25:12 GMT",
+    "etag": "W/\"63b51799f79fd12acb258dcd3ec77e668d9b0669c66885ed0ccee06b533f437f\"",
+    "expires": "Tue, 13 Oct 2026 23:30:12 GMT",
+    "source-age": "0",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "Authorization,Accept-Encoding",
+    "via": "1.1 varnish",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-content-type-options": "nosniff",
+    "x-fastly-request-id": "f6e146a37f41174fd50a0fa4d3a886b15c979ed0",
+    "x-frame-options": "deny",
+    "x-github-edge-region": "iad",
+    "x-github-request-id": "EBC2:3B8E89:72A16:91FD0:6ACEBDD6",
+    "x-served-by": "cache-yyz4538-YYZ",
+    "x-timer": "S1791933913.709453,VS0,VE87",
+    "x-xss-protection": "1; mode=block"
+  },
+  "body": "from .client import JuiceWRLDAPI\r\nfrom .models import Song, Artist, Album, Era\r\nfrom .exceptions import JuiceWRLDAPIError, RateLimitError, NotFoundError\r\n\r\n__version__ = \"1.0.4\"\r\n__author__ = \"Juice WRLD API Wrapper\"\r\n__all__ = [\"JuiceWRLDAPI\", \"Song\", \"Artist\", \"Album\", \"Era\", \"JuiceWRLDAPIError\", \"RateLimitError\", \"NotFoundError\"]\r\n"
+}

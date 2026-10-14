@@ -1,0 +1,482 @@
+[
+  {
+    "file": "2014-f550ec78f4b04b06.js",
+    "offset": 1370,
+    "literal": "http://www.w3.org/2000/svg"
+  },
+  {
+    "file": "2117-5f6235a09b716139.js",
+    "offset": 11477,
+    "literal": "http://n"
+  },
+  {
+    "file": "2117-5f6235a09b716139.js",
+    "offset": 29018,
+    "literal": "https://nextjs.org/docs/app/api-reference/functions/use-search-params#updating-searchparams"
+  },
+  {
+    "file": "2117-5f6235a09b716139.js",
+    "offset": 37406,
+    "literal": "https://nextjs.org/docs/messages/next-dynamic-api-wrong-context"
+  },
+  {
+    "file": "2117-5f6235a09b716139.js",
+    "offset": 87208,
+    "literal": "http://n"
+  },
+  {
+    "file": "2117-5f6235a09b716139.js",
+    "offset": 88315,
+    "literal": "https://nextjs.org/docs/app/building-your-application/rendering/static-and-dynamic#dynamic-rendering"
+  },
+  {
+    "file": "2117-5f6235a09b716139.js",
+    "offset": 88624,
+    "literal": "https://nextjs.org/docs/messages/dynamic-server-error"
+  },
+  {
+    "file": "2117-5f6235a09b716139.js",
+    "offset": 89152,
+    "literal": "https://nextjs.org/docs/app/api-reference/functions/unstable_cache"
+  },
+  {
+    "file": "2117-5f6235a09b716139.js",
+    "offset": 89396,
+    "literal": "https://nextjs.org/docs/app/building-your-application/rendering/static-and-dynamic#dynamic-rendering"
+  },
+  {
+    "file": "2117-5f6235a09b716139.js",
+    "offset": 89709,
+    "literal": "https://nextjs.org/docs/messages/dynamic-server-error"
+  },
+  {
+    "file": "2117-5f6235a09b716139.js",
+    "offset": 90181,
+    "literal": "https://nextjs.org/docs/messages/ppr-caught-error"
+  },
+  {
+    "file": "2612-0cd9696372780405.js",
+    "offset": 17810,
+    "literal": "https://git.io/JUIaE#"
+  },
+  {
+    "file": "2883-af529e61ca2f54bd.js",
+    "offset": 3232,
+    "literal": "/api/category-songs?"
+  },
+  {
+    "file": "2972-0a30effc1e7fb23f.js",
+    "offset": 5938,
+    "literal": "http://n"
+  },
+  {
+    "file": "2972-0a30effc1e7fb23f.js",
+    "offset": 5973,
+    "literal": "http://n"
+  },
+  {
+    "file": "2972-0a30effc1e7fb23f.js",
+    "offset": 11210,
+    "literal": "https://nextjs.org/docs/messages/public-next-folder-conflict"
+  },
+  {
+    "file": "2972-0a30effc1e7fb23f.js",
+    "offset": 11643,
+    "literal": "https://nextjs.org/docs/messages/404-get-initial-props"
+  },
+  {
+    "file": "2972-0a30effc1e7fb23f.js",
+    "offset": 11775,
+    "literal": "https://nextjs.org/docs/messages/gssp-export"
+  },
+  {
+    "file": "2972-0a30effc1e7fb23f.js",
+    "offset": 12219,
+    "literal": "https://nextjs.org/docs/messages/gssp-component-member"
+  },
+  {
+    "file": "2972-0a30effc1e7fb23f.js",
+    "offset": 12433,
+    "literal": "https://nextjs.org/docs/messages/non-standard-node-env"
+  },
+  {
+    "file": "2972-0a30effc1e7fb23f.js",
+    "offset": 12583,
+    "literal": "https://nextjs.org/docs/messages/ssg-fallback-true-export"
+  },
+  {
+    "file": "3145-71ffe46738a91385.js",
+    "offset": 5128,
+    "literal": "https://nextjs.org/docs/messages/invalid-images-config"
+  },
+  {
+    "file": "3145-71ffe46738a91385.js",
+    "offset": 5369,
+    "literal": "https://nextjs.org/docs/messages/next-image-missing-loader"
+  },
+  {
+    "file": "3145-71ffe46738a91385.js",
+    "offset": 9533,
+    "literal": "https://fonts.googleapis.com/css"
+  },
+  {
+    "file": "3145-71ffe46738a91385.js",
+    "offset": 9568,
+    "literal": "https://use.typekit.net/"
+  },
+  {
+    "file": "3145-71ffe46738a91385.js",
+    "offset": 10436,
+    "literal": "http://www.w3.org/2000/svg"
+  },
+  {
+    "file": "3647-36830eb352bb0494.js",
+    "offset": 8490,
+    "literal": "https://qfsysguoaxbwhjeqkwat.supabase.co"
+  },
+  {
+    "file": "4160-c898527e0d0acf0a.js",
+    "offset": 2928,
+    "literal": "https://media.juicewrldvault.com"
+  },
+  {
+    "file": "4160-c898527e0d0acf0a.js",
+    "offset": 3427,
+    "literal": "https://qfsysguoaxbwhjeqkwat.supabase.co"
+  },
+  {
+    "file": "4160-c898527e0d0acf0a.js",
+    "offset": 7572,
+    "literal": "/api/version"
+  },
+  {
+    "file": "5289-f0b17ac97596f267.js",
+    "offset": 7070,
+    "literal": "/api/staff/songs/"
+  },
+  {
+    "file": "5289-f0b17ac97596f267.js",
+    "offset": 7903,
+    "literal": "/api/staff/lyrics-alignment-json?songId="
+  },
+  {
+    "file": "5289-f0b17ac97596f267.js",
+    "offset": 9535,
+    "literal": "/api/staff/lyrics-alignment-json"
+  },
+  {
+    "file": "5289-f0b17ac97596f267.js",
+    "offset": 11035,
+    "literal": "/api/staff/lyrics-import"
+  },
+  {
+    "file": "5289-f0b17ac97596f267.js",
+    "offset": 13364,
+    "literal": "/api/staff/songs/"
+  },
+  {
+    "file": "5289-f0b17ac97596f267.js",
+    "offset": 21911,
+    "literal": "https://genius.com/..."
+  },
+  {
+    "file": "5289-f0b17ac97596f267.js",
+    "offset": 26657,
+    "literal": "https://media.juicewrldvault.com"
+  },
+  {
+    "file": "5289-f0b17ac97596f267.js",
+    "offset": 40001,
+    "literal": "/api/download-song"
+  },
+  {
+    "file": "5289-f0b17ac97596f267.js",
+    "offset": 40062,
+    "literal": "/api/download-song"
+  },
+  {
+    "file": "5289-f0b17ac97596f267.js",
+    "offset": 40907,
+    "literal": "https://juicewrldvault.invalid"
+  },
+  {
+    "file": "5289-f0b17ac97596f267.js",
+    "offset": 57566,
+    "literal": "/api/song-share-slug?id="
+  },
+  {
+    "file": "8704-c95cd67cd0edbfa4.js",
+    "offset": 26308,
+    "literal": "/api/download-song?id="
+  },
+  {
+    "file": "8704-c95cd67cd0edbfa4.js",
+    "offset": 26871,
+    "literal": "/api/staff/songs/"
+  },
+  {
+    "file": "8704-c95cd67cd0edbfa4.js",
+    "offset": 56565,
+    "literal": "/api/session-audio/"
+  },
+  {
+    "file": "916-a20a43d12080a7cb.js",
+    "offset": 55889,
+    "literal": "http://localhost:9999"
+  },
+  {
+    "file": "9931-c382d4b65820b6c5.js",
+    "offset": 2991,
+    "literal": "https://ko-fi.com/juicewrldvault"
+  },
+  {
+    "file": "9931-c382d4b65820b6c5.js",
+    "offset": 12976,
+    "literal": "/api/desktop-update"
+  },
+  {
+    "file": "9931-c382d4b65820b6c5.js",
+    "offset": 13325,
+    "literal": "/api/auth/logout"
+  },
+  {
+    "file": "9931-c382d4b65820b6c5.js",
+    "offset": 28906,
+    "literal": "/api/download-song?id="
+  },
+  {
+    "file": "9931-c382d4b65820b6c5.js",
+    "offset": 42397,
+    "literal": "/api/search/songs?"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 212,
+    "literal": "https://react.dev/errors/"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 12120,
+    "literal": "http://www.w3.org/2000/svg"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 79122,
+    "literal": "http://www.w3.org/2000/svg"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 99518,
+    "literal": "http://www.w3.org/2000/svg"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 99583,
+    "literal": "http://www.w3.org/1998/Math/MathML"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 99677,
+    "literal": "http://www.w3.org/2000/svg"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 99746,
+    "literal": "http://www.w3.org/1998/Math/MathML"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 148836,
+    "literal": "http://www.w3.org/1999/xlink"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 150072,
+    "literal": "http://www.w3.org/1999/xlink"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 150152,
+    "literal": "http://www.w3.org/1999/xlink"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 150229,
+    "literal": "http://www.w3.org/1999/xlink"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 150303,
+    "literal": "http://www.w3.org/1999/xlink"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 150378,
+    "literal": "http://www.w3.org/1999/xlink"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 150453,
+    "literal": "http://www.w3.org/1999/xlink"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 150525,
+    "literal": "http://www.w3.org/XML/1998/namespace"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 150603,
+    "literal": "http://www.w3.org/XML/1998/namespace"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 150682,
+    "literal": "http://www.w3.org/XML/1998/namespace"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 156395,
+    "literal": "http://www.w3.org/2000/svg"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 156437,
+    "literal": "http://www.w3.org/1998/Math/MathML"
+  },
+  {
+    "file": "fd9d1056-299f7ebc17e1f1b7.js",
+    "offset": 164626,
+    "literal": "http://www.w3.org/2000/svg"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 2909,
+    "literal": "/api/listen-along/rooms"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 22527,
+    "literal": "/api/presence/track"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 25657,
+    "literal": "https://media.juicewrldvault.com/"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 25708,
+    "literal": "https://qfsysguoaxbwhjeqkwat.supabase.co/"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 28037,
+    "literal": "/api/liked-songs/settings"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 34765,
+    "literal": "/api/playlists/saves"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 47090,
+    "literal": "/api/player/devices"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 63401,
+    "literal": "https://discord.gg/bpcKzvGrad"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 88582,
+    "literal": "/api/download-song?id="
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 90152,
+    "literal": "/api/staff/songs/"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 110429,
+    "literal": "/api/songs/shuffle-pool"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 115295,
+    "literal": "/api/profile/recent-play"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 118995,
+    "literal": "/api/player/queue-songs"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 191771,
+    "literal": "/api/site-notifications/claim"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 192374,
+    "literal": "/api/site-notifications/claim"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 197190,
+    "literal": "/api/session-audio/"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 205898,
+    "literal": "https://qfsysguoaxbwhjeqkwat.supabase.co"
+  },
+  {
+    "file": "layout-3ca200fcccbc9885.js",
+    "offset": 213705,
+    "literal": "/api/playlists/saves"
+  },
+  {
+    "file": "polyfills-42372ed130431b0a.js",
+    "offset": 2928,
+    "literal": "https://github.com/zloirock/core-js/blob/v3.38.1/LICENSE"
+  },
+  {
+    "file": "polyfills-42372ed130431b0a.js",
+    "offset": 2994,
+    "literal": "https://github.com/zloirock/core-js"
+  },
+  {
+    "file": "polyfills-42372ed130431b0a.js",
+    "offset": 70709,
+    "literal": "https://a"
+  },
+  {
+    "file": "polyfills-42372ed130431b0a.js",
+    "offset": 70913,
+    "literal": "https://a/c%20d?a=1&c=3"
+  },
+  {
+    "file": "polyfills-42372ed130431b0a.js",
+    "offset": 71034,
+    "literal": "https://a@b"
+  },
+  {
+    "file": "polyfills-42372ed130431b0a.js",
+    "offset": 71146,
+    "literal": "https://тест"
+  },
+  {
+    "file": "polyfills-42372ed130431b0a.js",
+    "offset": 71188,
+    "literal": "https://a#б"
+  },
+  {
+    "file": "polyfills-42372ed130431b0a.js",
+    "offset": 71235,
+    "literal": "https://x"
+  }
+]

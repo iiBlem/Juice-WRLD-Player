@@ -1,0 +1,7 @@
+.window-controls { display: flex; flex-shrink: 0; align-self: center; gap: 2px; padding: 3px; border-radius: 22px; border-color: var(--glass-border-strong); overflow: hidden; isolation: isolate; box-shadow: var(--glass-shadow), inset 0 1px 0 rgba(255,255,255,0.08); -webkit-app-region: no-drag; }
+.window-controls.glass-panel::before { content: none; }
+.window-controls button { width: 46px; height: 32px; display: grid; place-items: center; padding: 0; border: 0; outline: none; border-radius: 18px; background: transparent; color: var(--text-secondary); cursor: pointer; -webkit-app-region: no-drag; }
+.window-controls svg { width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 1; }
+.window-controls button:hover { background: var(--glass-bg-hover); color: var(--text-primary); }
+.window-controls .window-close:hover { background: #e81123; color: white; }
+.window-controls button:focus-visible { box-shadow: inset 0 0 0 2px var(--accent); }

@@ -1,0 +1,31 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const read = name => JSON.parse(fs.readFileSync(path.join(__dirname, name + '.json'), 'utf8'));
+const body = name => {const r = read(name); assert.equal(r.status, 200, name); return r.body;};
+assert.deepEqual(body('categories').categories.map(c => c.value).sort(), ['released', 'unreleased', 'unsurfaced', 'recording_session'].sort());
+for (const name of ['songs-first', 'category-recording_session', 'category-released', 'category-unsurfaced', 'search', 'era-name', 'eras', 'eras-page2']) {
+  const data = body(name); assert.equal(typeof data.count, 'number'); assert.ok(Array.isArray(data.results));
+}
+const track = body('detail-internal-id');
+assert.equal(track.id, 94316); assert.equal(body('detail-public-id').id, track.id);
+assert.equal(body('songs-first').results[0].id, track.id);
+assert.equal(body('era-name').results[0].era.name, 'jute'); assert.equal(body('era-id').count, 0);
+assert.equal(body('songs-offset').results.length, 20);
+assert.equal(body('songs-offset').results[0].id, track.id);
+assert.notEqual(body('songs-page2').results[0].id, track.id);
+assert.equal(body('category-recording_session').results[0].path, '');
+assert.equal(body('category-unsurfaced').results[0].path, '');
+assert.equal(body('eras').results.length + body('eras-page2').results.length, body('eras').count);
+assert.equal(read('player-first').status, 404);
+const audio = read('audio-range');
+assert.equal(audio.status, 206); assert.equal(audio.capturedBytes, 64);
+assert.equal(audio.headers['content-range'], 'bytes 0-63/9956956');
+assert.equal(audio.headers['access-control-allow-origin'], '*');
+assert.ok(audio.headers['accept-ranges'].includes('bytes'));
+assert.equal(Buffer.from(audio.firstBytesHex, 'hex').length, 64);
+assert.equal(Buffer.from(audio.firstBytesHex, 'hex').subarray(0, 3).toString(), 'ID3');
+assert.equal(new URL(audio.request.url).searchParams.get('path'), track.path);
+assert.deepEqual(Object.keys(audio.request.headers).sort(), ['Origin', 'Range']);
+assert.ok(body('browse-search').items.some(item => item.path === track.path));
+console.log('Recon self-check passed: catalogue shapes, identifiers, pagination, availability, and the single audio range response.');

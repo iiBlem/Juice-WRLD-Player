@@ -1,0 +1,38 @@
+{
+  "capturedAt": "2026-10-13T23:25:12.516Z",
+  "request": {
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/HackinHood/juicewrld-api-wrapper/6f54b5f98532c5ffb3a0bc716044147175dad2e8/setup.py"
+  },
+  "status": 200,
+  "finalUrl": "https://raw.githubusercontent.com/HackinHood/juicewrld-api-wrapper/6f54b5f98532c5ffb3a0bc716044147175dad2e8/setup.py",
+  "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "cache-control": "max-age=300",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-length": "865",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "content-type": "text/plain; charset=utf-8",
+    "cross-origin-resource-policy": "cross-origin",
+    "date": "Tue, 13 Oct 2026 23:25:13 GMT",
+    "etag": "W/\"3675aa841c41ea75c17978c56b5698b7ecc300abcca14c63dec602f5aa033a4a\"",
+    "expires": "Tue, 13 Oct 2026 23:30:13 GMT",
+    "source-age": "0",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "Authorization,Accept-Encoding",
+    "via": "1.1 varnish",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-content-type-options": "nosniff",
+    "x-fastly-request-id": "2a1df68de9235f541b41674622c03143b63bc425",
+    "x-frame-options": "deny",
+    "x-github-edge-region": "iad",
+    "x-github-request-id": "1F7A:1621F5:730E2:92688:6ACEBDD8",
+    "x-served-by": "cache-yyz4538-YYZ",
+    "x-timer": "S1791933913.439792,VS0,VE104",
+    "x-xss-protection": "1; mode=block"
+  },
+  "body": "from setuptools import setup, find_packages\r\n\r\nwith open(\"README.md\", \"r\", encoding=\"utf-8\") as fh:\r\n    long_description = fh.read()\r\n\r\nwith open(\"requirements.txt\", \"r\", encoding=\"utf-8\") as fh:\r\n    requirements = [line.strip() for line in fh if line.strip() and not line.startswith(\"#\")]\r\n\r\nsetup(\r\n    name=\"juicewrld-api-wrapper\",\r\n    version=\"1.0.4\",\r\n    author=\"Juice WRLD API Wrapper\",\r\n    author_email=\"support@juicewrldapi.com\",\r\n    description=\"A comprehensive Python wrapper for the Juice WRLD API\",\r\n    long_description=long_description,\r\n    long_description_content_type=\"text/markdown\",\r\n    url=\"https://github.com/HackinHood/juicewrld-api-wrapper\",\r\n    packages=find_packages(),\r\n    classifiers=[\r\n        \"Development Status :: 5 - Production/Stable\",\r\n        \"Intended Audience :: Developers\",\r\n        \"Operating System :: OS Independent\",\r\n        \"Programming Language :: Python :: 3\",\r\n        \"Programming Language :: Python :: 3.7\",\r\n        \"Programming Language :: Python :: 3.8\",\r\n        \"Programming Language :: Python :: 3.9\",\r\n        \"Programming Language :: Python :: 3.10\",\r\n        \"Programming Language :: Python :: 3.11\",\r\n        \"Programming Language :: Python :: 3.12\",\r\n        \"Topic :: Software Development :: Libraries :: Python Modules\",\r\n        \"Topic :: Multimedia :: Sound/Audio\",\r\n        \"Topic :: Internet :: WWW/HTTP :: Dynamic Content\",\r\n        \"Topic :: Internet :: WWW/HTTP :: HTTP Servers\",\r\n    ],\r\n    python_requires=\">=3.7\",\r\n    install_requires=requirements,\r\n    extras_require={\r\n        \"dev\": [\r\n            \"pytest>=6.0\",\r\n            \"pytest-cov>=2.0\",\r\n            \"black>=21.0\",\r\n            \"flake8>=3.8\",\r\n            \"mypy>=0.800\",\r\n            \"twine>=4.0\",\r\n            \"build>=0.10\",\r\n        ],\r\n    },\r\n    keywords=\"juice wrld, api, wrapper, music, discography, python\",\r\n    project_urls={\r\n        \"Homepage\": \"https://github.com/HackinHood/juicewrld-api-wrapper\",\r\n        \"Documentation\": \"https://github.com/HackinHood/juicewrld-api-wrapper#readme\",\r\n        \"Bug Reports\": \"https://github.com/HackinHood/juicewrld-api-wrapper/issues\",\r\n        \"Source\": \"https://github.com/HackinHood/juicewrld-api-wrapper\",\r\n        \"Changelog\": \"https://github.com/HackinHood/juicewrld-api-wrapper/releases\",\r\n    },\r\n    include_package_data=True,\r\n    zip_safe=False,\r\n)\r\n"
+}

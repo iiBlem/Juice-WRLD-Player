@@ -1,0 +1,183 @@
+{
+  "capturedAt": "2026-10-13T23:25:15.704Z",
+  "request": {
+    "method": "GET",
+    "url": "https://juicewrldapi.com/juicewrld/eras/"
+  },
+  "status": 200,
+  "finalUrl": "https://juicewrldapi.com/juicewrld/eras/",
+  "headers": {
+    "access-control-allow-credentials": "false",
+    "access-control-allow-headers": "accept, accept-encoding, authorization, content-type, dnt, origin, user-agent, x-csrftoken, x-requested-with, range, if-range, if-modified-since, if-none-match",
+    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "accept-ranges, content-length, content-range, content-type, last-modified, etag",
+    "access-control-max-age": "86400",
+    "age": "23",
+    "allow": "GET, HEAD, OPTIONS",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "max-age=900",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a4a21a3dbebdebbc-YYZ",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-type": "application/json",
+    "date": "Tue, 13 Oct 2026 23:25:16 GMT",
+    "expires": "Tue, 13 Oct 2026 23:39:51 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZXrB%2FovkpCqcW90qsn9614yNUxUs4aiBQM%2Fr%2B3a5gb1lFsRTDUCzr92dWjdNq0ChZBVihS72RQDBwmFLZCZAucqmkhAcdBhpPehq6vH1w%2B9upGzx%2BLipQWSGOQdOwT%2FBpw%2B0\"}]}",
+    "server": "cloudflare",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding, origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+  },
+  "body": {
+    "count": 34,
+    "next": "http://juicewrldapi.com/juicewrld/eras/?page=2",
+    "previous": null,
+    "results": [
+      {
+        "id": 101,
+        "name": "jute",
+        "description": "JUICED UP THE EP",
+        "time_frame": "January 2014 - January 30th 2016",
+        "play_count": 34107
+      },
+      {
+        "id": 102,
+        "name": "LND",
+        "description": "Legends Never Die",
+        "time_frame": "July 10th 2020",
+        "play_count": 2780
+      },
+      {
+        "id": 103,
+        "name": "afflictions",
+        "description": "Affliction era (February 2017-May 2017)",
+        "time_frame": "February 16th 2017 - April 12th 2017",
+        "play_count": 15411
+      },
+      {
+        "id": 104,
+        "name": "HIH 999",
+        "description": "Heartbroken In Hollywood 9 9 9",
+        "time_frame": "February 17th 2017- April 12th 2017",
+        "play_count": 4054
+      },
+      {
+        "id": 105,
+        "name": "jw 999",
+        "description": "Juice WRLD 999",
+        "time_frame": "April 12th 2017- June 15th 2017",
+        "play_count": 13359
+      },
+      {
+        "id": 106,
+        "name": "bdm",
+        "description": "BINGEDRINKINGMUSIC",
+        "time_frame": "June 15th 2017- October 19th 2017",
+        "play_count": 8144
+      },
+      {
+        "id": 107,
+        "name": "ND",
+        "description": "NOTHING'S DIFFERENT </3",
+        "time_frame": "October 19th 2017 - December 22nd 2017",
+        "play_count": 19823
+      },
+      {
+        "id": 108,
+        "name": "GB&GR",
+        "description": "Goodbye & Good Riddance",
+        "time_frame": "December 22nd 2017 - May 23rd 2018",
+        "play_count": 186678
+      },
+      {
+        "id": 109,
+        "name": "WOD",
+        "description": "WRLD On Drugs",
+        "time_frame": "May 23rd 2018 - October 19th 2018",
+        "play_count": 137637
+      },
+      {
+        "id": 110,
+        "name": "DRFL",
+        "description": "Death Race For Love",
+        "time_frame": "October 19th 2018 - March 8th 2019",
+        "play_count": 142432
+      },
+      {
+        "id": 111,
+        "name": "OUT",
+        "description": "Outsiders",
+        "time_frame": "March 8th 2019 - December 8th 2019",
+        "play_count": 192233
+      },
+      {
+        "id": 112,
+        "name": "POST",
+        "description": "Posthumous",
+        "time_frame": "December 8th 2019 - Present",
+        "play_count": 43497
+      },
+      {
+        "id": 113,
+        "name": "TPP",
+        "description": "The Pre Party",
+        "time_frame": "October 2024",
+        "play_count": 353
+      },
+      {
+        "id": 114,
+        "name": "TPP (EE)",
+        "description": "The Pre Party (Extended)",
+        "time_frame": "October 2024",
+        "play_count": 438
+      },
+      {
+        "id": 115,
+        "name": "FD",
+        "description": "Fighting Demons",
+        "time_frame": "December 10th 2021",
+        "play_count": 1630
+      },
+      {
+        "id": 116,
+        "name": "FD (DDE)",
+        "description": "Fighting Demons (Digital Deluxe Edition)",
+        "time_frame": "March 2022",
+        "play_count": 679
+      },
+      {
+        "id": 117,
+        "name": "TPNE",
+        "description": "The Party Never Ends",
+        "time_frame": "November 2024",
+        "play_count": 3393
+      },
+      {
+        "id": 118,
+        "name": "TPNE 2.0",
+        "description": "The Party Never Ends 2.0",
+        "time_frame": "November 2024",
+        "play_count": 174
+      },
+      {
+        "id": 119,
+        "name": "LND (5YAE)",
+        "description": "Legends Never Die 5th Anniversary Edition",
+        "time_frame": "July 2025",
+        "play_count": 293
+      },
+      {
+        "id": 120,
+        "name": "Mainstream",
+        "description": "Mainstream releases grouping",
+        "time_frame": "2018",
+        "play_count": 6955
+      }
+    ]
+  }
+}

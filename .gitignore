@@ -1,0 +1,7 @@
+app/out/
+app/out-*/
+app/dist/
+app/dist-electron/
+node_modules/
+.verify/
+*.log

@@ -1,0 +1,11 @@
+.download-anchor { position: relative; flex-shrink: 0; }
+.download-button { display: flex; align-items: center; justify-content: center; gap: 3px; width: 44px; height: 36px; border: 1px solid var(--glass-border-strong); border-radius: 8px; background: var(--glass-bg); color: var(--accent); cursor: pointer; }
+.download-button svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.7; }
+.download-button small { font-size: 9px; }
+.download-button:hover { background: var(--glass-bg-hover); }
+.download-button:disabled { opacity: .45; cursor: default; }
+.confirm-popover.glass-panel { position: absolute; right: 0; top: calc(100% + 8px); z-index: 40; width: 270px; box-sizing: border-box; padding: 16px; border: 1px solid var(--glass-border-strong); border-radius: 10px; background: var(--bg-elevated); color: var(--text-primary); }
+.confirm-popover p { margin: 0 0 14px; font-size: 14px; }
+.confirm-actions { display: flex; justify-content: flex-end; gap: 8px; }
+.confirm-actions button, .bulk-download-toast button { padding: 7px 12px; border: 1px solid var(--glass-border-strong); border-radius: 6px; background: var(--glass-bg-hover); color: var(--text-primary); font: inherit; cursor: pointer; }
+.confirm-actions button:last-child { color: var(--accent); }

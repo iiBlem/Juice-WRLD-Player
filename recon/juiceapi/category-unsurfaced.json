@@ -1,0 +1,95 @@
+{
+  "capturedAt": "2026-10-13T23:25:59.931Z",
+  "request": {
+    "method": "GET",
+    "url": "https://juicewrldapi.com/juicewrld/songs/?category=unsurfaced&page=1&page_size=1"
+  },
+  "status": 200,
+  "finalUrl": "https://juicewrldapi.com/juicewrld/songs/?category=unsurfaced&page=1&page_size=1",
+  "headers": {
+    "access-control-allow-credentials": "false",
+    "access-control-allow-headers": "accept, accept-encoding, authorization, content-type, dnt, origin, user-agent, x-csrftoken, x-requested-with, range, if-range, if-modified-since, if-none-match",
+    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "accept-ranges, content-length, content-range, content-type, last-modified, etag",
+    "access-control-max-age": "86400",
+    "allow": "GET, HEAD, OPTIONS",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "max-age=14400",
+    "cf-cache-status": "MISS",
+    "cf-ray": "a4a21b4f5838a226-YYZ",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-type": "application/json",
+    "date": "Tue, 13 Oct 2026 23:26:00 GMT",
+    "expires": "Tue, 13 Oct 2026 23:30:58 GMT",
+    "last-modified": "Tue, 13 Oct 2026 23:26:00 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HM4ZoH42VYNgzi0YXVZdxNq%2FhQ8yGDkIjEkkuvE7k%2FX5I2Tjy2w3zpsE8C2Q678lHcezKjFuisKTYp2pVSCauuoM3fewi4P4EsV2kIWtgZFoPKp0TG%2FmlsdC0I3ceS4N%2BQNd\"}]}",
+    "server": "cloudflare",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding, origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+  },
+  "body": {
+    "count": 413,
+    "next": "http://juicewrldapi.com/juicewrld/songs/?category=unsurfaced&page=2&page_size=1",
+    "previous": null,
+    "results": [
+      {
+        "id": 96551,
+        "public_id": null,
+        "name": "Bars",
+        "original_key": "Bars",
+        "category": "unsurfaced",
+        "era": {
+          "id": 101,
+          "name": "jute",
+          "description": "JUICED UP THE EP",
+          "time_frame": "January 2014 - January 30th 2016",
+          "play_count": 34108
+        },
+        "path": "",
+        "track_titles": [
+          "Bars"
+        ],
+        "credited_artists": "JuiceTheKidd",
+        "producers": "Unknown",
+        "engineers": "Unknown",
+        "recording_locations": "[?], [?], Chicago IL.",
+        "record_dates": "",
+        "length": "",
+        "bitrate": "",
+        "bpm": "",
+        "key": "",
+        "additional_information": "",
+        "file_names": "N/A",
+        "instrumentals": "",
+        "preview_date": "",
+        "release_date": "",
+        "dates": "",
+        "session_titles": "",
+        "session_tracking": "",
+        "instrumental_names": "N/A",
+        "groupbuy_info": {
+          "additional_info": "",
+          "price": "",
+          "start_date": "",
+          "end_date": "",
+          "blind": false,
+          "finished": false,
+          "surfaced_with_og": false
+        },
+        "lyrics": "",
+        "synced_lyrics": "",
+        "album": "",
+        "snippets": [],
+        "date_leaked": "",
+        "leak_type": "Throwaway Track (N/A; Unsurfaced)",
+        "image_url": "/assets/jute.png"
+      }
+    ]
+  }
+}

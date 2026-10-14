@@ -1,0 +1,14 @@
+html, body, #root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: system-ui, sans-serif;
+}
+
+body { background: radial-gradient(ellipse at 80% 0%, var(--accent-translucent), transparent 50%), var(--bg-base); }
+#root { background: transparent; }
+
+.right-stack { position: fixed; right: 16px; bottom: 106px; z-index: 26; display: flex; flex-direction: column-reverse; gap: 12px; align-items: flex-end; pointer-events: none; }
+.right-stack > * { pointer-events: auto; }

@@ -1,0 +1,28 @@
+{
+  "capturedAt": "2026-10-13T23:26:09.957Z",
+  "request": {
+    "method": "GET",
+    "url": "https://juicewrldapi.com/app-config.js"
+  },
+  "status": 200,
+  "finalUrl": "https://juicewrldapi.com/app-config.js",
+  "headers": {
+    "age": "6600955",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "public, max-age=31536000, immutable",
+    "cf-cache-status": "HIT",
+    "cf-ray": "a4a21b968fbaa226-YYZ",
+    "connection": "keep-alive",
+    "content-encoding": "br",
+    "content-type": "application/javascript",
+    "date": "Tue, 13 Oct 2026 23:26:10 GMT",
+    "etag": "W/\"698024c8-47\"",
+    "expires": "Thu, 29 Jul 2027 13:50:13 GMT",
+    "last-modified": "Mon, 02 Feb 2026 04:15:04 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=CLv8OiZXukFNFWUQw8%2FUKTzHz%2BtFmlp5s8W754MdwopynII5ftIpEtJRqHzw0cp4Lz%2B%2BRkFJtmwezM06aczDwqutnOegeB8lViUGE8JVp35MdOx9Vq9f7ya3CWuVcPVRl%2Bc7\"}]}",
+    "server": "cloudflare",
+    "transfer-encoding": "chunked"
+  },
+  "body": "window.__JUICEWRLDAPI_CONFIG__ = window.__JUICEWRLDAPI_CONFIG__ || {}\r\n"
+}

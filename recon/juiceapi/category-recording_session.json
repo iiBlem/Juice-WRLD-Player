@@ -1,0 +1,95 @@
+{
+  "capturedAt": "2026-10-13T23:25:57.233Z",
+  "request": {
+    "method": "GET",
+    "url": "https://juicewrldapi.com/juicewrld/songs/?category=recording_session&page=1&page_size=1"
+  },
+  "status": 200,
+  "finalUrl": "https://juicewrldapi.com/juicewrld/songs/?category=recording_session&page=1&page_size=1",
+  "headers": {
+    "access-control-allow-credentials": "false",
+    "access-control-allow-headers": "accept, accept-encoding, authorization, content-type, dnt, origin, user-agent, x-csrftoken, x-requested-with, range, if-range, if-modified-since, if-none-match",
+    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "accept-ranges, content-length, content-range, content-type, last-modified, etag",
+    "access-control-max-age": "86400",
+    "allow": "GET, HEAD, OPTIONS",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "max-age=14400",
+    "cf-cache-status": "MISS",
+    "cf-ray": "a4a21b405a86a226-YYZ",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-type": "application/json",
+    "date": "Tue, 13 Oct 2026 23:25:58 GMT",
+    "expires": "Tue, 13 Oct 2026 23:30:56 GMT",
+    "last-modified": "Tue, 13 Oct 2026 23:25:58 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=JoF4Q%2BnB%2BMLU3YWzdXJQbBDcqaPgI26OOcetZxeOGkSE812%2BRYIpOBW16uasGQeHdXj60x9RZotgbKhcCoi9wOfSYQTlAVkzeZz9ufw2N3BP97ucXQ1hCsP7mcw%2F8YuF2FMi\"}]}",
+    "server": "cloudflare",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding, origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+  },
+  "body": {
+    "count": 511,
+    "next": "http://juicewrldapi.com/juicewrld/songs/?category=recording_session&page=2&page_size=1",
+    "previous": null,
+    "results": [
+      {
+        "id": 96700,
+        "public_id": null,
+        "name": "Ain't Talkin' Toronto (feat. JuiceTheKidd)",
+        "original_key": "",
+        "category": "recording_session",
+        "era": {
+          "id": 101,
+          "name": "jute",
+          "description": "JUICED UP THE EP",
+          "time_frame": "January 2014 - January 30th 2016",
+          "play_count": 34108
+        },
+        "path": "",
+        "track_titles": [
+          "Ain't Talkin' Toronto (feat. JuiceTheKidd)"
+        ],
+        "credited_artists": "RoadRunner GDo",
+        "producers": "TrellGotWings",
+        "engineers": "Romel Williams",
+        "recording_locations": "Enviyon Entertainment Recording Studio, Country Club Hills, Chicago, IL.",
+        "record_dates": "Recorded\r\nSeptember 24, 2015.",
+        "length": "",
+        "bitrate": "",
+        "bpm": "",
+        "key": "",
+        "additional_information": "Originally released on SoundCloud as a single, but was later removed for unknown reasons.",
+        "file_names": "AINT TALKIN TORONTO",
+        "instrumentals": "Future ft. Young Thug - \"Halftime\" [Type Beat]",
+        "preview_date": "Previewed\r\nSeptember 24, 2015.\r\nFirst Teased\r\nSeptember 24, 2015",
+        "release_date": "",
+        "dates": "",
+        "session_titles": "AINT TALKING TORONTO.ptx",
+        "session_tracking": "Total Vocal Takes: 7\nJuice's Vocal Takes: 4\nGDo's Vocal Takes: 3\nGDo Vocal Tracking: #1\nFirst Vocal Take: 20:56:34\nFinal Vocal Take: 21:00:07\nJuice Vocal Tracking: #1\nFirst Vocal Take: 21:09:23\nFinal Vocal Take: 21:16:10",
+        "instrumental_names": "",
+        "groupbuy_info": {
+          "additional_info": "",
+          "price": "",
+          "start_date": "",
+          "end_date": "",
+          "blind": false,
+          "finished": false,
+          "surfaced_with_og": false
+        },
+        "lyrics": "Mono Boy\r\nWe don't want nothing (Rollin' off the molly, can't no pussy nigga say shit, no)\r\nAlways in Atlanta (Boy sweat then leave)\r\nThese some hoes, from the other side (Ain't' talking Toronto)\r\n(TrellGotWings)\r\nI might sip some liquor with some hoes from the other side\r\nDrank it up on the other side (Try and pull up from the other side)\r\nPistol on my hip, no one in my brother ride\r\nTry and pull up on the other side (Boo-boo-boo-boom)\r\nNew crawl straight up out the box they ain't run though, hit a lil bin from his box though (Grrah)\r\nWith that six, ain't talkin Toronto (Woah)\r\nAin't' talking Toronto (TrellGotWings)\r\nAin't' talkin' Toronto (Nah), I want a condo in Toronto (Yuh)\r\nYou know a place that my mom go, I swear to God I'm the man (Yuh)\r\nI just want to let mom know, no Osama but I'm dropping bombs though (Woah)\r\nNiggas they don't understand (No they don't), it's all about the bands though\r\nTrapping with my brothers and the Bandos (Woah)\r\nI got the upper hand (Yes I do)\r\nYou know I'm throwing hands though (TrellGotWings)\r\nIn the strip club throwing bands though (Swoo')\r\nCoolin' with the fans (With the fans), niggas they be fans though\r\nI just wanna let my fuckin' fans know, I hope you understand (Understand)\r\nI'm rolling off a Xan though, it's my nigga's rollin' off a Xan though (Woah)\r\nYou know where we stand (Where we stand), shootin' like commando\r\nAll my nigga's shooting like commando (Woah)\r\nYou know I'm the man (Yeah, you know it), so fuck what you sayin' though (TrellGotWings)\r\nScreamin' mother fuck what you sayin' though? (What you sayin' though?)\r\nI might sip some liquor with some hoes from the other side (Yeah)\r\nDrank it up on the other side (Try and pull up from the other side)\r\nPistol on my hip, no one in my brother ride (Brother ride)\r\nTry and pull up on the other side (Boo-boo-boo-boom, try and pull up on the other side)\r\nNew crawl straight up out the box they ain't run though (Woah), hit a lil bin from his box though (Grrah)\r\nWith that six, ain't talkin Toronto (Toronto)\r\nAin't' talking Toronto (TrellGotWings)\r\nAin't talkin' Toronto, but I go a snap now (Yeah)\r\nAll my niggas in it, yeah, niggas finna rap now (Yeah)\r\nWater whippin' in the kitchen watch a nigga trap now (Swoo')\r\nSayin' he tough, no niggas in the background (No)\r\nAll my niggas going crazy, you should fuckin' know it (Yeah)\r\n.40 on my hip, nigga ain't tryin' blow it (Bow)\r\nAin't no fear in my body, I don't even show it (Yeah, TrellGotWings)\r\nPlus I'm rollin' off a molly, she already goin' (Bitch, I'm ready)\r\nYeah, and all my niggas finna run it, we be runnin' shit, we gunnin' muh'fucker know I'm sunnin' (Woah)\r\nNiggas talkin' dumb 'til I pull up, and I'm drummin' (Woah)\r\nBitches like money 'cause they both keep coming, goddamn (Woah)\r\nI swear I'm the man, dunkin' on these bitch niggas no NBA jam (Woah)\r\nNiggas talk shit 'til a nigga got amped (Woah), then I pulled the .40 out he got up out that fucking jam (Woah, TrellGotWings)\r\nNigga I'm the fuckin' man (Woah)\r\nI might sip some liquor with some hoes from the other side (Other side)\r\nDrank it up on the other side (Try and pull up from the other side)\r\nPistol on my hip, no one in my brother ride (Brother ride)\r\nTry and pull up on the other side (Boo-boo-boo-boom)\r\nNew crawl straight up out the box they ain't run though, hit a lil bin from his box though (Grrah)\r\nWith that six, ain't talkin Toronto (Toronto)\r\nAin't' talking Toronto (TrellGotWings)\r\nAin't talkin' Toronto (Nah), but I'm getting cheese like nachos (Yeah)\r\nNiggas talk dumb 'til I pop em' (Yeah, yeah)\r\nPull up to the Gucci store, you know I'm stuntin' (Yeah, yeah)\r\nLet a nigga try me then the .40 get the drummin' (Bow)\r\nI swear I'm the man, can't nobody else replace it (Nah)\r\nRollin' up a blunt, full of demons, I'ma face it (Woah)\r\nAnybody got a fuckin' problem, I'm a blaze it (Woah)\r\nJacky Chan kush 'cause I'm feelin' like an Asian (Woah)\r\nI might sip some liquor with some hoes from the other side (Feeling like an Asian, woah)\r\nPistol on my hip (Rollin' off the molly, can't no pussy nigga say shit, no)\r\nNew crawl straight up out the box they ain't run though, hit a lil'\r\n(Yeah, me and my niggas, yeah, we been through it all)\r\nWith that six (Condo)\r\n(TrellGotWings)\r\nAin't' talking Toronto",
+        "synced_lyrics": "",
+        "album": "",
+        "snippets": [],
+        "date_leaked": "December 21, 2025",
+        "leak_type": "Pro Tools Session",
+        "image_url": "/assets/jute.png"
+      }
+    ]
+  }
+}
